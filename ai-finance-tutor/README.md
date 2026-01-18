@@ -35,11 +35,20 @@ This project was built for the hackathon to demonstrate how AI can transform raw
 - Go (v1.21+)
 
 ### Backend Setup
-1. Navigate to the backend directory:
+1. **AI Setup (Ollama)**
+   This project uses `Ollama` to run local LLMs.
+   - Install Ollama from [ollama.com](https://ollama.com).
+   - Pull the required model (we use `tinyllama` for speed, or `llama3` for better results):
+     ```bash
+     ollama pull tinyllama
+     ```
+   - Ensure Ollama is running (`ollama serve`).
+
+2. Navigate to the backend directory:
    ```bash
    cd backend
    ```
-2. Start the server:
+3. Start the server:
    ```bash
    go run main.go
    ```
