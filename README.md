@@ -46,7 +46,7 @@ This project was built for the hackathon to demonstrate how AI can transform raw
 
 2. Navigate to the backend directory:
    ```bash
-   cd backend
+   cd ai-finance-tutor/backend
    ```
 3. Start the server:
    ```bash
@@ -57,7 +57,7 @@ This project was built for the hackathon to demonstrate how AI can transform raw
 ### Frontend Setup
 1. Navigate to the frontend directory:
    ```bash
-   cd frontend
+   cd ai-finance-tutor/frontend
    ```
 2. Install dependencies:
    ```bash
