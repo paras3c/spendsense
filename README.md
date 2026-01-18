@@ -42,13 +42,21 @@ This project was built for the hackathon to demonstrate how AI can transform raw
      ```bash
      ollama pull tinyllama
      ```
+     ollama pull tinyllama
+     ```
    - Ensure Ollama is running (`ollama serve`).
 
-2. Navigate to the backend directory:
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/paras3c/spendsense.git
+   cd spendsense
+   ```
+
+3. Navigate to the backend directory:
    ```bash
    cd ai-finance-tutor/backend
    ```
-3. Start the server:
+4. Start the server:
    ```bash
    go run main.go
    ```
