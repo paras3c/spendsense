@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Lora', serif;
+  background-color: #ffffff;
+  color: #000000;
+
+  /* Paper Texture (Simulation via noise or plain white) */
+  background-image: none;
+}
+
+body {
+  min-height: 100vh;
+  @apply antialiased;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Editorial Card Utility */
+.editorial-card {
+  background: #ffffff;
+  border: 3px solid #000000;
+  padding: 1.5rem;
+  box-shadow: 8px 8px 0px 0px #000000;
+  transition: transform 0.2s ease;
+}
+
+.editorial-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 12px 12px 0px 0px #000000;
+}
+
+/* Editorial Border (for layout sections) */
+.editorial-border-b {
+  border-bottom: 3px solid #000000;
+}
+
+.editorial-border-t {
+  border-top: 3px solid #000000;
+}
+
+/* Button Styles */
+.editorial-btn {
+  background: #000000;
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  /* Keep UI text sans for legibility or switch to serif */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.editorial-btn:hover {
+  background: #333333;
+  transform: translateY(-2px);
+}
+
+.editorial-btn-outline {
+  background: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+}
+
+.editorial-btn-outline:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+/* Scrollbar (Minimalist Black) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-left: 1px solid #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333333;
+}
